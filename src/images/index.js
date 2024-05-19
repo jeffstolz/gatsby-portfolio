@@ -27,7 +27,18 @@ import Favicon from "./favicon.png"
 import Headshot from "./jeff_stolz.png"
 import JeffGalina from "./jeff-galina.jpg"
 import JeffStolzResume from "./jeff_stolz_resume.pdf"
-import MarketplaceBg from "./marketplace-bg.jpg"
+import MarketplaceBg from "./marketplace-bg.svg"
+import MarketplaceBrainstorm from "./marketplace-brainstorm.jpg"
+import MarketplaceBenchmarkOne from "./marketplace-benchmark1.jpg"
+import MarketplaceBenchmarkTwo from "./marketplace-benchmark2.jpg"
+import MarketplaceBenchmarkThree from "./marketplace-benchmark3.jpg"
+import MarketplaceBenchmarkFour from "./marketplace-benchmark4.jpg"
+import MarketplaceBuyermap from "./marketplace-buyermap.jpg"
+import MarketplaceBuyerhome from "./marketplace-buyerhome.svg"
+import MarketplaceBuyerresearch from "./marketplace-buyerresearch.jpg"
+import MarketplaceBuyerdetails from "./marketplace-buyerdetails.svg"
+import MarketplaceSellermap from "./marketplace-sellermap.jpg"
+import MarketplaceSellerresearch from "./marketplace-sellerresearch.jpg"
 import MarketplaceThumbnail from "./marketplace-thumbnail.svg"
 import MhDesignProcessSketch from "./mh-design-process-sketch.jpg"
 import MhDiscovery from "./mh-discovery.jpg"
@@ -138,6 +149,17 @@ export const Images = {
   JeffGalina,
   JeffStolzResume,
   MarketplaceBg,
+  MarketplaceBrainstorm,
+  MarketplaceBenchmarkOne,
+  MarketplaceBenchmarkTwo,
+  MarketplaceBenchmarkThree,
+  MarketplaceBenchmarkFour,
+  MarketplaceBuyermap,
+  MarketplaceBuyerhome,
+  MarketplaceBuyerdetails,
+  MarketplaceBuyerresearch,
+  MarketplaceSellermap,
+  MarketplaceSellerresearch,
   MarketplaceThumbnail,
   MhDesignProcessSketch,
   MhDiscovery,

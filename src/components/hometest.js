@@ -55,7 +55,7 @@ const Hometest = () => (
               software for their private cloud environments. Contributed to
               expanding the HPE Technology Partner Program by 23%.
             </CaseDescription>
-            <CaseLinkDisabled>Coming soon...</CaseLinkDisabled>
+            <CaseLink to="marketplace">View case study</CaseLink>
           </CaseCopy>
         </CaseCard>
         <CaseCard>

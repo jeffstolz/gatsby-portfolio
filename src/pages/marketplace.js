@@ -16,14 +16,13 @@ const Marketplace = () => (
       <Menutest3 />
       <Main id="top">
         <Header>
-          <HeaderTitle>Cloud Marketplace</HeaderTitle>
+          <HeaderTitle>Private Cloud Marketplace</HeaderTitle>
           <HeaderDescription>
-            In 2021, there was a clear HPE customer demand for an online store
-            that would allow them to buy, sell, and easily provision
-            applications to enhance their HPE GreenLake services. I spearheaded
-            the comprehensive design and MVP launch of the HPE GreenLake
-            Marketplace, addressing this need and expanding our partnership
-            program.
+            In 2021, there was a clear HPE customer demand for a place to help
+            them buy, sell, and easily provision applications within their
+            private cloud environments. I spearheaded the comprehensive design
+            and MVP launch of the HPE GreenLake Marketplace, addressing this
+            need and helping expand our partnership program by 23%.
           </HeaderDescription>
         </Header>
         <IntroImage
@@ -56,6 +55,17 @@ const Marketplace = () => (
             that focus on rapid delivery & iteration. I am a big fan of Lean UX,
             Jobs to Be Done, Design Sprints, and Atomic Design Systems.
           </Description>
+          <CaseImageFull src={Images.MarketplaceBenchmarkOne} alt="" />
+          <CaseImageFull src={Images.MarketplaceBenchmarkTwo} alt="" />
+          <CaseImageFull src={Images.MarketplaceBenchmarkThree} alt="" />
+          <CaseImageFull src={Images.MarketplaceBenchmarkFour} alt="" />
+          <CaseImageFull src={Images.MarketplaceBrainstorm} alt="" />
+          <CaseImageFull src={Images.MarketplaceSellermap} alt="" />
+          <CaseImageFull src={Images.MarketplaceBuyermap} alt="" />
+          <CaseImageFull src={Images.MarketplaceBuyerhome} alt="" />
+          <CaseImageFull src={Images.MarketplaceBuyerdetails} alt="" />
+          <CaseImageFull src={Images.MarketplaceBuyerresearch} alt="" />
+          <CaseImageFull src={Images.MarketplaceSellerresearch} alt="" />
         </LightSection>
         <DarkSection>
           <Title>Buyer Experience</Title>
@@ -117,7 +127,7 @@ const Marketplace = () => (
           </LinkWrapper>
           <LinkWrapper>
             <PreUpNext>Up next:</PreUpNext>
-            <UpNext to={"../personalization"}>User personalization</UpNext>
+            <UpNext to={"../ads"}>Sales Quoting Tool</UpNext>
             <FaArrowRight style={{ color: "#ef5350" }} />
           </LinkWrapper>
         </Footer>
@@ -169,8 +179,9 @@ const HeaderDescription = styled.p`
 `
 
 const IntroImage = styled.img`
-  width: 1200px;
-  height: 600px;
+  width: 100%;
+  max-height: 100%;
+  margin-bottom: -5px;
 `
 
 const LightSection = styled.section`
@@ -201,6 +212,11 @@ const Description = styled.p`
   color: #474d55;
   max-width: 650px;
   padding-bottom: 25px;
+`
+
+const CaseImageFull = styled.img`
+  width: 100%;
+  margin-bottom: 20px;
 `
 
 const Footer = styled.section`

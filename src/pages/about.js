@@ -29,7 +29,7 @@ const About = () => (
             Hello! I am a product designer based in Boston with 12+ years
             experience. I thrive in small, collaborative, cross-functional teams
             that focus on rapid delivery & iteration. I am a big fan of Lean UX,
-            Jobs to Be Done, Design Sprints , and Atomic Design Systems.
+            Jobs to Be Done, Design Sprints, and Atomic Design Systems.
           </Description>
           <Description>
             My current role is principal product designer at HPE. I am
@@ -37,8 +37,9 @@ const About = () => (
             responsible for driving the product design strategy for the HPE
             GreenLake Platform. This has included spearheading initiatives to
             introduce user personalization, commerce, global search &
-            navigation, onboarding, contextual help, service management, and a
-            third-party marketplace.
+            navigation, user onboarding, contextual help, service & subscription
+            management, notifications, resource health, and a private cloud
+            marketplace.
           </Description>
           <Description>
             Additionally, my team leads the HPE Innovation Lab which has

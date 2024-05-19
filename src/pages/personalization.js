@@ -587,7 +587,7 @@ const Personalization = () => (
           </LinkWrapper>
           <LinkWrapper>
             <PreUpNext>Up next:</PreUpNext>
-            <UpNext to={"../ads"}>Sales Quoting Tool</UpNext>
+            <UpNext to={"../marketplace"}>Private Cloud Marketplace</UpNext>
             <FaArrowRight style={{ color: "#ef5350" }} />
           </LinkWrapper>
         </Footer>
